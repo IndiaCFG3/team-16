@@ -19,8 +19,7 @@ if(isset($_SESSION['email'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <title>Herright|Login</title>
-
+    <title>TISS-NUSSD</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
@@ -79,7 +78,7 @@ if(isset($_SESSION['email'])){
                                 <div class="live_chat_btn">
                                     <a class="boxed_btn_orange" href="#">
                                         <i class="fa fa-phone"></i>
-                                        <span>+10 378 467 3672</span>
+                                        <span>+91 9876543210</span>
                                     </a>
                                 </div>
                             </div>
