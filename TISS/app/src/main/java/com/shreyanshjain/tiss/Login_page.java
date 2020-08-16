@@ -45,7 +45,7 @@ public class Login_page extends AppCompatActivity {
                     registration_id.setError("Please Enter a valid registration id");
                 }
                 else{
-                    String b = registration_id.getText().toString();
+                    final String b = registration_id.getText().toString();
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("RegistrationIDS").child(b);
                     databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
@@ -53,6 +53,7 @@ public class Login_page extends AppCompatActivity {
                             if (dataSnapshot.exists()){
                                 progressDialog.dismiss();
                                 Intent intent = new Intent(Login_page.this,Otp_activity.class);
+                                intent.putExtra("ID",b);
                                 startActivity(intent);
 
                             }
