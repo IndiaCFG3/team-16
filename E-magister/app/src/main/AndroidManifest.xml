@@ -21,7 +21,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.layout.AddNewCourse"></activity>
+        <activity android:name=".ui.NewCoursePage" />
+        <activity android:name=".ui.layout.AddNewCourse" />
         <activity android:name=".ui.BlockedStudents" />
         <activity android:name=".ui.TestActivity" />
         <activity android:name=".ui.WebProctoredTest" />
@@ -40,6 +41,10 @@
         <activity android:name=".ui.test" />
         <activity android:name=".ui.ChatRoom" />
         <activity android:name=".ui.ChooseCourseChat" />
+        <activity android:name=".ui.pdf_upload"></activity>
+        <activity android:name=".ui.image_upload" />
+        <activity android:name=".ui.video_upload" />
+        <activity android:name=".ui.AdminUpload"/>
         <activity
             android:name=".ui.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"

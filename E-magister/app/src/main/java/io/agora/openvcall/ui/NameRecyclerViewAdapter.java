@@ -53,7 +53,12 @@ public class NameRecyclerViewAdapter extends RecyclerView.Adapter<NameRecyclerVi
                     Intent intent = new Intent(context,ChatRoom.class);
                     intent.putExtra("Course",mNames.get(position));
                     context.startActivity(intent);
-                }else if(mflag=="a") {
+                }else if(mflag=="n") {
+                    Intent intent = new Intent(context,NewCoursePage.class);
+                    intent.putExtra("Course",mNames.get(position));
+                    context.startActivity(intent);
+                }
+                else if(mflag=="a") {
                     if(mdept.equals("Tutor")) {
                         Intent intent = new Intent(context, TeacherAssignmentList.class);
                         intent.putExtra("Course", mNames.get(position));

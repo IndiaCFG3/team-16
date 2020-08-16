@@ -11,7 +11,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.ChooseCourseChat">
+        tools:context=".ui.layout.AddNewCourse">
 
         <TextView
             android:id="@+id/textView"
@@ -21,7 +21,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="serif"
-            android:text="Select Course to enter its chat room"
+            android:text="Select a new course to add in the bucket"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"

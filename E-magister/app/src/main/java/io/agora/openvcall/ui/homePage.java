@@ -34,7 +34,7 @@ public class homePage extends AppCompatActivity implements NavigationView.OnNavi
     private Button referStudent;
     private Button referralStatus;
     private Button paymentStatus;*/
-    LinearLayout videoClass,chatRoom,assignment,appointment,quiz;
+    LinearLayout videoClass,chatRoom,assignment,appointment,quiz,AdminUpload;
     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
     DatabaseReference dbUser;
     String dept;
@@ -50,11 +50,21 @@ public class homePage extends AppCompatActivity implements NavigationView.OnNavi
         chatRoom = findViewById(R.id.chatRoom);
         assignment = findViewById(R.id.assignment);
         appointment = findViewById(R.id.appointment);
+        AdminUpload = findViewById(R.id.AdminUpload);
         quiz = findViewById(R.id.quiz);
 
         dept = getIntent().getStringExtra("dept");
 
         addTask = findViewById(R.id.addTask);
+
+        AdminUpload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homePage.this, AdminUpload.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         addTask.setOnClickListener(new View.OnClickListener() {
             @Override
