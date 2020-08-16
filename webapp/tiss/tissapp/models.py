@@ -12,7 +12,7 @@ class Student(models.Model):
     ID = models.AutoField(primary_key=True)
     title = models.ForeignKey('auth.User',related_name='student',on_delete=models.CASCADE)
     mobilenumber=models.PositiveIntegerField(max_length=12)
-    
+
     def __str__(self):
         return self.title
 class Subject(models.Model):
