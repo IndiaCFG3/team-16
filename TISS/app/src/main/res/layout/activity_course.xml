@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="159dp"
+        android:layout_height="128dp"
+        android:text="Attendance"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="159dp"
+        android:layout_height="128dp"
+        android:text="Tests"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:id="@+id/Course Material"
+        android:layout_width="163dp"
+        android:layout_height="106dp"
+        android:text="Course Material"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="128dp"
+        android:text="Chat"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="225dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
