@@ -13,5 +13,6 @@ public class Login_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
+        otp_btn=(Button)findViewById(R.id.request_otp_btn);
     }
 }
