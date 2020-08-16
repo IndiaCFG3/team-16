@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Otp_activity"></activity>
         <activity android:name=".Login_page" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".StudentDashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
